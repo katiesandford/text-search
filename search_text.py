@@ -11,7 +11,7 @@ def search_text(text_to_search: str, sub_text: str):
 
     Returns:
         A comma separated list of the character positions
-        None if sub_text does not occur within text_to_search
+        '<No Output>' if sub_text does not occur within text_to_search
     """
 
     found = []
@@ -27,7 +27,8 @@ def search_text(text_to_search: str, sub_text: str):
         # Add one because we want the position rather than the index
         found_positions = [str(i+1) for i in found]
         return _join(found_positions, ', ')
-    return None
+
+    return '<No Output>'
 
 
 def _join(items: list, join_with: str):

@@ -7,8 +7,8 @@ test_cases = [
     ('peter', '1, 20, 75'),
     ('pick', '30, 58'),
     ('pi', '30, 37, 43, 51, 58'),
-    ('z', None),
-    ('Peterz', None),
+    ('z', '<No Output>'),
+    ('Peterz', '<No Output>'),
     ('!', '92'),
 ]
 
