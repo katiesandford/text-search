@@ -1,6 +1,6 @@
 import pytest
 
-from local_measure.search_text import search_text
+from search_text import search_text
 
 test_cases = [
     ('Peter', '1, 20, 75'),
