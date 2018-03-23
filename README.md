@@ -6,6 +6,6 @@ A simple Python text searching algorthim, without using extended language functi
 
 ## Usage
 ```
-from text_search import search_text
+from search_text import search_text
 search_text('Hello David', 'llo')
 ```
