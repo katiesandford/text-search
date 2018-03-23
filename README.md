@@ -1,2 +1,11 @@
 # text-search
-A simple implementation of searching for text inside other text
+A simple text search algorthim
+
+##  Requirements
+- Python 3
+
+## Usage
+```
+from text_search import search_text
+search_text('Hello David', 'llo')
+```
